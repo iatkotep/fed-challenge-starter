@@ -16,6 +16,7 @@ export const Card = styled.div`
     : '0 1px 2px 0 rgba(46, 49, 52, 0.4)'
   };
   overflow: hidden;
+  cursor: pointer;
 `
 
 const cardContentGutter = 16;
