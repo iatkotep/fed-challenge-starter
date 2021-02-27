@@ -1,6 +1,10 @@
 export const classes = [
   {
     name: '20-minutes-to-toned',
+    title: 'Lake Inniscarra, Ireland—Pyramid',
+    duration: '',
+    views: '',
+    url: '',
   },
   {
     name: 'charles-race',
