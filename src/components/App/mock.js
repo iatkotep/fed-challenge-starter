@@ -86,6 +86,24 @@ export const classes = [
   },
   {
     name: 'shred-and-burn',
-    title: 'Shred & Burn Series'
+    title: 'Shred & Burn Series',
+    workouts: [
+      'workout-1',
+      'workout-2',
+      'workout-3',
+      'workout-4',
+      'workout-5',
+      'workout-6',
+      'workout-7',
+      'workout-8',
+      'workout-9',
+      'workout-10',
+      'workout-11',
+      'workout-12',
+      'workout-13',
+      'workout-14',
+      'workout-15',
+      'workout-16',
+    ]
   },
 ]
