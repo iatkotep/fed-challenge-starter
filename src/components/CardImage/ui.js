@@ -6,6 +6,7 @@ export const AspectImage = styled.div`
   ${({height, width, src, type}) => css`
     background: url(${src}) center center no-repeat;
     background-size: contain;
+    width: 100%;
     &:before {
       content: '';
       display: block;

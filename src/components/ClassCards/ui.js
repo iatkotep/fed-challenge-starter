@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 const cardGutter = 24;
 const idealCardWidth = 288;
 
