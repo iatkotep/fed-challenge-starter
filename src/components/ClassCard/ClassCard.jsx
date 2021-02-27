@@ -1,18 +1,19 @@
 import React from 'react';
-
-import { Card } from './ui';
+import CardImage from '../CardImage';
+import { Card, CardContent, CardTitle, TrainerImageWrap } from './ui';
 
 export const ClassCard = props => {
-
-  // name: '20-minutes-to-toned',
-  // title: 'Lake Inniscarra, Ireland—Pyramid',
-  // duration: '',
-  // views: '',
-  // url: '',
-
+  const {name, title, meta, url} = props;
 
   return (
     <Card>
+      <CardImage {...{type: 'thumb', name, width: 432, height: 246}} />
+      <CardContent>
+        <CardTitle>{title}</CardTitle>
+        <TrainerImageWrap>
+          <CardImage {...{type: 'trainer', name, width: 28, height: 28}} />
+        </TrainerImageWrap>
+      </CardContent>
 
     </Card>
   )

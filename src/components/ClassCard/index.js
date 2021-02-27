@@ -1,1 +1,1 @@
-import { default } from './ClassCard';
+export { default } from './ClassCard';
