@@ -2,9 +2,11 @@ export const classes = [
   {
     name: '20-minutes-to-toned',
     title: 'Lake Inniscarra, Ireland—Pyramid',
-    duration: '',
-    views: '',
-    url: '',
+    meta: [
+      {type: 'duration', value: '30:53'},
+      {type: 'distance', value: '6,248 M'}
+    ],
+    url: '#20-minutes-to-toned',
   },
   {
     name: 'charles-race',
